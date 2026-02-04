@@ -486,7 +486,7 @@ private: System::Void EqualsButton_Click(System::Object^ sender, System::EventAr
 	case '/':
 		if (Sec == 0) {
 			res = 0;
-			MessageBox::Show(this, "Kys", "Divided by zero?", MessageBoxButtons::OK, MessageBoxIcon::Error);
+			MessageBox::Show(this, "Can`t do this", "Divided by zero?", MessageBoxButtons::OK, MessageBoxIcon::Error);
 		}
 		else res = this->FirstNum / Sec;
 		break;
